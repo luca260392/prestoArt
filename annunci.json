@@ -1,0 +1,114 @@
+[
+    {
+      "id": 1,
+      "img": "./media/Bernard-Jarman.jpeg",
+      "name": "She walks on air",
+      "category": "Digitale su carta",
+      "price": 3690.00
+    },
+    {
+      "id": 2,
+      "img": "./media/CCXXXIX.jpeg",
+      "name": "The Death of (tomorrow) II, CCXXXIX",
+      "category": "Digitale su plexiglass",
+      "price": 8310.00
+    },
+    {
+      "id": 3,
+      "img": "./media/Dan-Obana.jpeg",
+      "name": "Outer Space of Relaxation",
+      "category": "Digitale su tela",
+      "price": 3660.00
+    },
+    {
+      "id": 4,
+      "img": "./media/endless36.jpeg",
+      "name": "Endless 36",
+      "category": "Digitale su carta",
+      "price": 1370.00
+    },
+    {
+      "id": 5,
+      "img": "./media/ican.jpeg",
+      "name": "I CAN",
+      "category": "Digitale su metallo",
+      "price": 1120.00
+    },
+    {
+      "id": 6,
+      "img": "./media/liberty.jpeg",
+      "name": "2024 LIBERTY UNTITLED",
+      "category": "Alu-Dibond",
+      "price": 2140.00
+    },
+    {
+      "id": 7,
+      "img": "./media/night-fever.jpeg",
+      "name": "Night Fever",
+      "category": "Digitale su metallo",
+      "price": 1800.00
+    },
+    {
+      "id": 8,
+      "img": "./media/nouna.jpeg",
+      "name": "TABLEU POP",
+      "category": "Alu-Dibond",
+      "price": 1600.00
+    },
+    {
+      "id": 9,
+      "img": "./media/vava.jpeg",
+      "name": "Beautifil animals 7",
+      "category": "Digitale su tela",
+      "price": 3410.00
+    },
+    {
+        "id": 10,
+        "img": "./media/rosarium.jpeg",
+        "name": "Rosarium Paris Notre Dame 3",
+        "category": "Digitale su tela",
+        "price": 2700.00
+    },
+    {
+        "id": 11,
+        "img": "./media/heart.jpeg",
+        "name": "You are in my heart",
+        "category": "Digitale su tela",
+        "price": 2400.00
+    },
+    {
+        "id": 12,
+        "img": "./media/varb.jpeg",
+        "name": "A Tribute to FRANZ SCHUBERT Der Tod und das Maedchen. VarB",
+        "category": "Digitale su carta",
+        "price": 2410.00
+    },
+    {
+        "id": 13,
+        "img": "./media/regicide.jpeg",
+        "name": "Regicide",
+        "category": "Digitale su carta",
+        "price": 2390.00
+    },
+    {
+        "id": 14,
+        "img": "./media/luz.jpeg",
+        "name": "Luz, flash, sol",
+        "category": "Digitale su carta",
+        "price": 1870.00
+    },
+    {
+        "id": 15,
+        "img": "./media/rothko.jpeg",
+        "name": "QUOTING ROTHKO",
+        "category": "Digitale su plexiglass",
+        "price": 4700.00
+    },
+    {
+        "id": 16,
+        "img": "./media/doors.jpeg",
+        "name": "Hidden Doors",
+        "category": "Digitale su carta",
+        "price": 2350.00
+    }
+  ]

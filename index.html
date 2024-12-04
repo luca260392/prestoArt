@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>prestoArt.it</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&   display=swap" rel="stylesheet">
+
+    <!-- css boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- icons boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- css aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">prestoArt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-three-dots"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mx-auto barraRicerca" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                    <button class="btn btnCerca" type="submit">Cerca</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/annunci.html">Annunci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/chi-siamo.html">Chi siamo</a>
+                    </li>
+                    <li class="nav-item theme-icons">
+                        <i class="bi bi-moon-fill" id="darkModeToggle"></i>
+                        <i class="bi bi-brightness-high-fill" id="lightModeToggle"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header class="header">
+        <div class="container d-flex flex-column align-items-center m-0 p-0">
+            <h1>Benvenuti su prestoArt</h1>
+            <p>Scopri l'arte digitale più innovativa e acquista opere uniche dai migliori artisti contemporanei</p>
+        </div>
+    </header>
+
+
+
+    <section class="section-1">
+        <div class="container">
+            <div class="row justify-content-around align-items-center" data-aos="zoom-in-up">
+                <div class="col-12">
+                    <div class="art-slider">
+                        <div class="art-slider__navigation">
+                            <a href="#slide-1">1</a>
+                            <a href="#slide-2">2</a>
+                            <a href="#slide-3">3</a>
+                            <a href="#slide-4">4</a>
+                            <a href="#slide-5">5</a>
+                            <a href="#slide-6">6</a>
+                            <a href="#slide-7">7</a>
+                            <a href="#slide-8">8</a>
+                            <a href="#slide-9">9</a>
+                        </div>
+
+                        <div class="art-slider__slides">
+                            <div id="slide-1" class="art-slider__slide">
+                                <img src="/media/Bernard-Jarman.jpeg" alt="Opera d'arte 1">
+                            </div>
+                            <div id="slide-2" class="art-slider__slide">
+                                <img src="/media/CCXXXIX.jpeg" alt="Opera d'arte 2">
+                            </div>
+                            <div id="slide-3" class="art-slider__slide">
+                                <img src="/media/Dan-Obana.jpeg" alt="Opera d'arte 3">
+                            </div>
+                            <div id="slide-4" class="art-slider__slide">
+                                <img src="/media/yatch.jpeg" alt="Opera d'arte 4">
+                            </div>
+                            <div id="slide-5" class="art-slider__slide">
+                                <img src="/media/ican.jpeg" alt="Opera d'arte 5">
+                            </div>
+                            <div id="slide-6" class="art-slider__slide">
+                                <img src="/media/liberty.jpeg" alt="Opera d'arte 6">
+                            </div>
+                            <div id="slide-7" class="art-slider__slide">
+                                <img src="/media/night-fever.jpeg" alt="Opera d'arte 7">
+                            </div>
+                            <div id="slide-8" class="art-slider__slide">
+                                <img src="/media/nouna.jpeg" alt="Opera d'arte 8">
+                            </div>
+                            <div id="slide-9" class="art-slider__slide">
+                                <img src="/media/regicide.jpeg" alt="Opera d'arte 9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="col-12 mb-5 px-5">
+        <div class="container">
+            <h3 class="text-center mb-3">Scopri l'Arte Digitale</h3>
+            <div class="text-content">
+                <p class="text-center expandable-text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus ipsam nam maiores atque unde. Illum non, nemo cumque molestiae cupiditate unde libero eos harum, itaque ut earum iusto, nisi eum inventore incidunt vel commodi quam! Nihil repellat maxime non eveniet vitae tempora voluptates, earum temporibus tempore maiores atque dolorem laboriosam rem commodi rerum ipsam itaque, totam adipisci necessitatibus dolor quis id quam sit quasi.
+                    <span class="expanded-content">
+                        Deleniti aspernatur aliquid perferendis obcaecati ipsum aut rem facilis hic nesciunt fuga. Illo, eveniet neque dicta, reiciendis consequuntur fugit officiis recusandae, voluptatibus debitis veniam quidem ab totam quibusdam iure facilis dolorum aliquid rerum illum ratione aspernatur fugiat? Iure dolorem totam necessitatibus mollitia nemo vero velit atque voluptates, id, earum accusantium, tempora deserunt ullam reprehenderit impedit consequatur reiciendis ea odio! Odio tempora nisi debitis assumenda beatae, reprehenderit facere ut rerum repudiandae ab, sint harum voluptatem voluptatum eum tempore possimus quibusdam, earum amet veniam quia neque incidunt consequuntur?<br>
+                        Numquam ut ipsam et ipsa nisi repellat ex? Quisquam nam sapiente architecto ea dignissimos rerum iste molestias minima. Reprehenderit quos, laboriosam ab in voluptatum distinctio rem atque quod omnis aut dicta fuga pariatur rerum officiis at deserunt minima quam saepe dolore ea odit laudantium mollitia. Consectetur libero voluptates eius odit. In blanditiis optio, eos ea odit repellendus molestias consequatur sint dignissimos. Perspiciatis saepe quam, fuga laboriosam recusandae minima maiores! Itaque rem blanditiis facilis excepturi debitis obcaecati magni animi, saepe ab quas quos reprehenderit a? Odio sed, exercitationem molestiae minima amet doloribus aut, tenetur, optio laudantium laborum nobis adipisci quod quasi commodi aspernatur hic repellat? Ab numquam error, praesentium nam, dolorem eaque ipsam ut soluta suscipit ullam asperiores libero illum commodi, sit quibusdam saepe dolor sapiente minus ipsa necessitatibus rerum vitae cupiditate quidem. Illo quo, nemo numquam dicta perspiciatis velit! Enim temporibus eos velit eius id expedita, facere iure consectetur sed repellendus pariatur numquam dolores molestiae doloribus harum laboriosam at nisi?<br>
+                        Totam officia non architecto similique expedita temporibus facere ullam nisi, vero neque aliquam id! Quos quaerat atque distinctio dolor reprehenderit recusandae corrupti excepturi soluta error illum similique quisquam doloribus asperiores, iste culpa! Quam pariatur natus architecto similique cum nostrum repudiandae explicabo, saepe commodi aliquam fugiat vero inventore tenetur esse tempora praesentium molestiae quas corrupti minima! Repellendus, quisquam assumenda? Recusandae praesentium distinctio numquam commodi quis alias voluptatibus, doloremque fugiat. Tempora sequi, ut impedit temporibus blanditiis pariatur neque ex molestias, excepturi, eius et ea voluptate atque voluptas dignissimos vitae fuga libero eum quidem debitis modi fugiat quam! Sequi, debitis beatae consequatur fugit saepe pariatur est adipisci quaerat impedit incidunt blanditiis quo eum omnis dolorum aliquam itaque necessitatibus similique molestiae deleniti corporis.
+                    </span>
+                </p>
+                <button class="read-more-btn">Leggi di più</button>
+            </div>
+        </div>
+    </div>
+
+
+
+<section class="section-2">
+    <div class="container">
+        <div class="row text-center d-flex justify-content-around">
+            <div class="col-12 mb-5 mt-5">
+                <h2 class="fw-bold">Lorem ipsum dolor</h2>
+            </div>
+            <div class="col-12 col-md-3">
+                <p class="text-number mb-0">Aziende Partner</p>
+                <p id="firstNum" class="num">10</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p class="text-number mb-0">Clienti</p>
+                <p id="secondNum" class="num">100+</p>
+            </div>
+            <div class="col-12 col-md-3">
+                <p class="text-number mb-0">Opere Vendute</p>
+                <p id="thirdNum" class="num">200+</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer-content">
+        <div class="container-fluid">
+            <div class="row justify-content-evenly text-center">
+                <div class="footer-section">
+                    <h5>Artisti Famosi su prestoArt</h5>
+                    <ul>
+                        <li><a href="#">Pablo Picasso</a></li>
+                        <li><a href="#">Salvador Dalí</a></li>
+                        <li><a href="#">Banksy</a></li>
+                        <li><a href="#">Shepard Fairey</a></li>
+                        <li><a href="#">Marc Chagall</a></li>
+                        <li><a href="#">Mr. Brainwash</a></li>
+                        <li><a href="#">Henri Matisse</a></li>
+                        <li><a href="#">Gallerie d'arte in Italia</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Per gli Artisti</h5>
+                    <ul>
+                        <li><a href="#">Unisciti a prestoArt come Artista?</a></li>
+                        <li><a href="#">Accedi come Artista</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Servizio clienti</h5>
+                    <ul>
+                        <li><a href="#">Contattaci</a></li>
+                        <li><a href="#">Spedizione</a></li>
+                        <li><a href="#">Norme sui resi</a></li>
+                        <li><a href="#">Testimonianze dei clienti</a></li>
+                        <li><a href="#">Offri una carta regalo</a></li>
+                        <li><a href="#">Il mio account</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">+39 147852369</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h5>Chi è prestoArt</h5>
+                    <ul>
+                        <li><a href="/chi-siamo.html">Su di noi</a></li>
+                        <li><a href="#">Affiliati</a></li>
+                        <li><a href="#">I nostri artisti</a></li>
+                        <li><a href="#">Magazine</a></li>
+                        <li><a href="#">Lavori</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="footer-bottom d-flex justify-content-between align-items-center">
+            <p>Languages & Currency: Italiano | EUR</p>
+            <div class="social-icons">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-pinterest"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom d-flex justify-content-between align-items-center">
+            <p>&copy; 2024 prestoArt</p>
+            <p>Centro privacy. Note legali. Condizioni e termini generali d'uso</p>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- js aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<!-- js boostrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+<!-- js -->
+<script src="/main.js"></script>
+</body>
+</body>
+</html>

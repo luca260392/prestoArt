@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>prestoArt.it</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&   display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html">prestoArt</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="bi bi-three-dots"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex mx-auto barraRicerca" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Search">
+                    <button class="btn btnCerca" type="submit">Cerca</button>
+                </form>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/annunci.html">Annunci</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/chi-siamo.html">Chi siamo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="header">
+        <div class="container d-flex flex-column align-items-center">
+            <h1>Tutti gli annunci</h1>
+            <p>prestoArt</p>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center my-5">
+                    <h2>Tutti gli annunci</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis fuga labore sit! Sint in amet quam deserunt voluptatibus ratione hic?</p>
+                    <button class="btn btn-outline-dark rounded-3 my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="bi bi-filter-right"></i>Filtra</button>
+                </div>
+                <div class="row mb-5 cardsAnnunci" id="containerCards">
+                    <!-- cards -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer mt-5">
+        <div class="footer-content">
+            <div class="container-fluid">
+                <div class="row justify-content-evenly text-center">
+                    <div class="footer-section">
+                        <h5>Artisti Famosi su prestoArt</h5>
+                        <ul>
+                            <li><a href="#">Pablo Picasso</a></li>
+                            <li><a href="#">Salvador Dalí</a></li>
+                            <li><a href="#">Banksy</a></li>
+                            <li><a href="#">Shepard Fairey</a></li>
+                            <li><a href="#">Marc Chagall</a></li>
+                            <li><a href="#">Mr. Brainwash</a></li>
+                            <li><a href="#">Henri Matisse</a></li>
+                            <li><a href="#">Gallerie d'arte in Italia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Per gli Artisti</h5>
+                        <ul>
+                            <li><a href="#">Unisciti a prestoArt come Artista?</a></li>
+                            <li><a href="#">Accedi come Artista</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Servizio clienti</h5>
+                        <ul>
+                            <li><a href="#">Contattaci</a></li>
+                            <li><a href="#">Spedizione</a></li>
+                            <li><a href="#">Norme sui resi</a></li>
+                            <li><a href="#">Testimonianze dei clienti</a></li>
+                            <li><a href="#">Offri una carta regalo</a></li>
+                            <li><a href="#">Il mio account</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">+39 147852369</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Chi è prestoArt</h5>
+                        <ul>
+                            <li><a href="#">Su di noi</a></li>
+                            <li><a href="#">Affiliati</a></li>
+                            <li><a href="#">I nostri artisti</a></li>
+                            <li><a href="#">Magazine</a></li>
+                            <li><a href="#">Lavori</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-bottom d-flex justify-content-between align-items-center">
+                <p>Languages & Currency: Italiano | EUR</p>
+                <div class="social-icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    <a href="#"><i class="bi bi-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-between align-items-center">
+                <p>&copy; 2024 prestoArt</p>
+                <p>Centro privacy. Note legali. Condizioni e termini generali d'uso</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h4 class="offcanvas-title" id="offcanvasRightLabel">Filtra per...</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <h5>Filtra per Categoria</h5>
+                <div class="form-check" id="containerCategory">
+                    <!-- Radio buttons categorie generati dinamicamente -->
+                </div>
+
+                <h5 class="mt-3">Filtra per Prezzo</h5>
+                <div>
+                    <label id="priceValue" class="form-label"></label>
+                    <input type="range" class="form-range" id="priceInput">
+
+                    <!-- Aggiunti radio buttons per ordinamento prezzo -->
+                    <div class="mt-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="sortPrice" id="sortAsc">
+                            <label class="form-check-label" for="sortAsc">
+                                Dal prezzo più basso
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="sortPrice" id="sortDesc">
+                            <label class="form-check-label" for="sortDesc">
+                                Dal prezzo più alto
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <h5 class="mt-3">Filtra per Nome</h5>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="wordInput" placeholder="scrivi qui">
+                </div>
+
+                <!-- Aggiunto pulsante reset -->
+                <button class="btn btn-danger w-100 mt-3" id="resetFilters">
+                    Resetta filtri
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="/annunci.js"></script>
+</body>
+</body>
+</html>
