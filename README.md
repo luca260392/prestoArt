@@ -3,6 +3,7 @@
 prestoArt è un'applicazione web completa che funge da hub centrale per gli amanti dell'arte digitale. Il progetto offre una vasta gamma di funzionalità che consentono agli utenti di esplorare e interagire con opere d'arte digitali innovative create dai migliori 
 artisti contemporanei. Il sito è fatto con html, css e javascript.
 
+
 ## Funzionalità Principali
 
 1. **Catalogo delle Opere d'Arte**: Gli utenti possono navigare e esplorare un catalogo completo di opere d'arte digitali, con informazioni dettagliate su ciascuna opera, come immagini, descrizioni, prezzi e informazioni sull'artista.
@@ -12,24 +13,6 @@ artisti contemporanei. Il sito è fatto con html, css e javascript.
 5. **Strumenti di Creazione e Commissione**: Gli artisti registrati possono utilizzare gli strumenti di creazione e commissione per caricare, gestire e vendere le proprie opere d'arte digitali.
 6. **Comunità e Interazioni**: Gli utenti possono interagire con la comunità di prestoArt attraverso forum, commenti sulle opere d'arte e partecipazione a eventi ed esposizioni virtuali.
 
-## Sicurezza
-
-prestoArt attribuisce grande importanza alla sicurezza e alla protezione dei dati degli utenti. Alcune delle misure di sicurezza chiave includono:
-
-1. **Autenticazione Utente Sicura**: L'applicazione implementa un robusto sistema di autenticazione degli utenti utilizzando pratiche standard del settore, come l'hashing delle password, il salting e la gestione sicura delle sessioni.
-2. **Convalida e Sanitizzazione degli Input**: Tutti gli input degli utenti vengono convalidati e sanitizzati per prevenire vulnerabilità web comuni, come l'iniezione SQL e gli attacchi cross-site scripting (XSS).
-3. **Crittografia dei Dati**: I dati sensibili degli utenti, come informazioni di pagamento e preferenze personali, sono crittografati sia a riposo che in transito utilizzando algoritmi di crittografia standard del settore.
-4. **Monitoraggio e Protezione**: prestoArt implementa soluzioni di monitoraggio e protezione degli accessi per rilevare e prevenire attività sospette o tentativi di intrusione.
-5. **Audit di Sicurezza Regolari**: L'applicazione viene sottoposta a valutazioni e test di penetrazione della sicurezza periodici per identificare e affrontare eventuali vulnerabilità.
-
-## Gestione File
-
-La gestione dei file, in particolare delle opere d'arte digitali, è un aspetto cruciale di prestoArt. L'applicazione adotta le seguenti best practice:
-
-1. **Archiviazione Sicura**: I file caricati dagli utenti, come immagini e file multimediali, sono archiviati in servizi di archiviazione cloud sicuri e affidabili, come AWS S3 o Google Cloud Storage.
-2. **Ottimizzazione dei File**: Al momento del caricamento, i file vengono automaticamente ottimizzati per la distribuzione web, con compressione delle immagini, conversione dei formati e ridimensionamento reattivo.
-3. **Rete di Distribuzione dei Contenuti (CDN)**: L'applicazione utilizza una rete di distribuzione dei contenuti per memorizzare nella cache e distribuire in modo rapido e efficiente gli asset statici, come immagini e file CSS/JavaScript.
-4. **Convalida Rigorosa dei File**: prestoArt applica una rigorosa convalida del tipo e delle dimensioni dei file per prevenire il caricamento di file potenzialmente dannosi o non autorizzati.
 
 ## Possibili Implementazioni Future
 
