@@ -8,7 +8,6 @@ artisti contemporanei. Il sito è fatto con html, css e javascript.
 
 1. **Catalogo delle Opere d'Arte**: Gli utenti possono navigare e esplorare un catalogo completo di opere d'arte digitali, con informazioni dettagliate su ciascuna opera, come immagini, descrizioni, prezzi e informazioni sull'artista.
 2. **Pagine dei Dettagli delle Opere d'Arte**: Quando gli utenti selezionano una specifica opera d'arte, vengono presentati con una pagina dedicata che mostra ulteriori dettagli, come spedizione, disponibilità e opzioni di personalizzazione.
-3. **Comunità e Interazioni**: Gli utenti possono interagire con la comunità di prestoArt attraverso forum, commenti sulle opere d'arte e partecipazione a eventi ed esposizioni virtuali.
 
 
 ## Possibili Implementazioni Future
